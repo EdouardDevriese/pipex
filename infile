@@ -1,0 +1,15 @@
+child1.c
+child1.o
+child2.c
+child2.o
+error.c
+error.o
+find_cmd_path.c
+find_cmd_path.o
+infile
+libft
+main.c
+main.o
+Makefile
+pipex
+pipex.h

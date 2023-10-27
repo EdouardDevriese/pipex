@@ -6,7 +6,7 @@
 /*   By: wdevries <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 10:36:25 by wdevries          #+#    #+#             */
-/*   Updated: 2023/07/07 08:56:02 by wdevries         ###   ########.fr       */
+/*   Updated: 2023/10/27 11:35:16 by wdevries         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	init_error_messages(char **em, char **argv)
 {
-	em[ERR_NONE] = "Unknown error";
-	em[ERR_CLOSE_FD] = "close";
+	em[ERR_NONE] = "unknown error";
+	em[ERR_CLOSE_FD] = "close failed";
 	em[ERR_FILE2_WRITE] = argv[4];
 	em[ERR_FILE1_ACCESS] = argv[1];
 	em[ERR_PIPE_CREATION] = "pipe";
